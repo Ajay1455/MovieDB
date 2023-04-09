@@ -72,6 +72,7 @@ for (let obj of movies) {
     let movieEnded = document.createElement("h3");
     let movieStatus = document.createElement("h3");
     let movieLink = document.createElement("a");
+    document.getElementById("bckbox").style.background=`url(${obj.image})`
 
 
     let genre="";

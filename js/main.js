@@ -106,7 +106,7 @@ function movieContent(movies) {
 
 
     let moviesDetails = JSON.parse(sessionStorage.getItem("movieDetails"));
-    console.log(obj.show.network.name)
+    console.log(obj)
     moviesDetails.push({
       name: obj.show.name,
       id: obj.show.id,
