@@ -143,6 +143,7 @@ function searchMovies() {
         .json()
         .then((pmovieResult) => {
           movieContent(pmovieResult);
+          console.log(pmovieResult)
         })
         .catch((err) => {
           console.log(err);
