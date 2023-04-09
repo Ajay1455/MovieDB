@@ -18,7 +18,7 @@ function present(movieId){
     };
     return false;
 };
-
+.0
 // handlefav == alerBox
 function alertBox(text, color) {
   let alert = document.getElementById("alert");
@@ -106,10 +106,21 @@ function movieContent(movies) {
 
 
     let moviesDetails = JSON.parse(sessionStorage.getItem("movieDetails"));
+    console.log(obj.show.network.name)
     moviesDetails.push({
       name: obj.show.name,
       id: obj.show.id,
       image: obj.show.image.original,
+      summary:obj.show.summary,
+      rating:obj.show.rating.average,
+      genres:obj.show.genres,
+      language:obj.show.language,
+      network:obj.show.network.name,
+      country:obj.show.network.country.name,
+      premiered:obj.show.premiered,
+      ended:obj.show.ended,
+      status:obj.show.status,
+      official:obj.show.officialSite
     });
 
     sessionStorage.setItem("movieDetails", JSON.stringify(moviesDetails));
