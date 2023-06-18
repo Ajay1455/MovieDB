@@ -6,6 +6,20 @@ MovieDB is a web application built using HTML, CSS, and JavaScript. It allows us
 
 A live demo of the MovieDB web application can be accessed [here](https://ajay1455.github.io/MovieDB/MainPage.html).
 
+## Screenshots
+
+### Home page
+![Registration page](https://i.postimg.cc/nrgSYtZj/Screenshot-640.png)
+
+### Detail page
+![Login page](https://i.postimg.cc/PrbFv99x/Screenshot-643.png)
+
+### Favorites page
+![Home page](https://i.postimg.cc/ZqXLMx22/Screenshot-644.png)
+
+<br>
+<br>
+
 ## Features
 
 - Search for movies and TV shows
